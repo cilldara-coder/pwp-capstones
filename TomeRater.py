@@ -187,7 +187,7 @@ class TomeRater():
         for i in self.users.values():
             print(i)
             
-    def most_read_books(self):
+    def get_most_read_books(self):
         count = 0
         most_read = ""
         for i in self.books.keys():
